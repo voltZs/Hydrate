@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="iDrinkJava" />
+    <item type="id" name="measure1java" />
+    <item type="id" name="measure2java" />
+    <item type="id" name="measure3java" />
+    <item type="id" name="measure4java" />
+    <item type="id" name="measure5java" />
+    <item type="id" name="measure6java" />
+    <item type="id" name="measure1javaS" />
+    <item type="id" name="measure2javaS" />
+    <item type="id" name="measure3javaS" />
+    <item type="id" name="measure4javaS" />
+    <item type="id" name="measure5javaS" />
+    <item type="id" name="measure6javaS" />
+</resources>

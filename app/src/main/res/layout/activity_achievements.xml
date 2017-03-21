@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_achievements"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="@color/backgroundcolor"
+    tools:context="com.example.zsoltvarga.hydrate.Achievements">
+
+    <include
+        layout="@layout/layout_toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/unloacked_achievments_text"
+                android:text="@string/unlocked_achs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"/>
+
+            <RelativeLayout
+                android:id="@+id/line_one_achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/unloacked_achievments_text">
+
+                <ImageView
+                    android:id="@+id/one_one"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"/>
+                <ImageView
+                    android:id="@+id/one_two"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/one_one"
+                    android:layout_marginLeft="30dp"/>
+                <ImageView
+                    android:id="@+id/one_three"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/one_two"
+                    android:layout_marginLeft="30dp"/>
+                <ImageView
+                    android:id="@+id/one_four"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/one_three"
+                    android:layout_marginLeft="30dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/line_two_achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/line_one_achievements">
+
+                <ImageView
+                    android:id="@+id/two_one"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"/>
+                <ImageView
+                    android:id="@+id/two_two"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/two_one"
+                    android:layout_marginLeft="30dp"/>
+                <ImageView
+                    android:id="@+id/two_three"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/two_two"
+                    android:layout_marginLeft="30dp"/>
+                <ImageView
+                    android:id="@+id/two_four"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/two_three"
+                    android:layout_marginLeft="30dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/divide_line_one"
+                android:layout_marginTop="25dp"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@mipmap/white_line"
+                android:layout_below="@id/line_two_achievements"/>
+
+            <RelativeLayout
+            android:id="@+id/line_three_achievements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/divide_line_one">
+
+            <ImageView
+                android:id="@+id/three_one"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@mipmap/unknown_badge"/>
+            <ImageView
+                android:id="@+id/three_two"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@mipmap/unknown_badge"
+                android:layout_toRightOf="@id/three_one"
+                android:layout_marginLeft="30dp"/>
+            <ImageView
+                android:id="@+id/three_three"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@mipmap/unknown_badge"
+                android:layout_toRightOf="@id/three_two"
+                android:layout_marginLeft="30dp"/>
+            <ImageView
+                android:id="@+id/three_four"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@mipmap/unknown_badge"
+                android:layout_toRightOf="@id/three_three"
+                android:layout_marginLeft="30dp"/>
+
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/line_four_achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/line_three_achievements">
+
+                <ImageView
+                    android:id="@+id/four_one"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"/>
+                <ImageView
+                    android:id="@+id/four_two"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/four_one"
+                    android:layout_marginLeft="30dp"/>
+                <ImageView
+                    android:id="@+id/four_three"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/four_two"
+                    android:layout_marginLeft="30dp"/>
+                <ImageView
+                    android:id="@+id/four_four"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/four_three"
+                    android:layout_marginLeft="30dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/divide_line_two"
+                android:layout_marginTop="25dp"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@mipmap/white_line"
+                android:layout_below="@id/line_four_achievements"/>
+
+            <RelativeLayout
+                android:id="@+id/line_five_achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/divide_line_two">
+
+                <ImageView
+                    android:id="@+id/five_one"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"/>
+                <ImageView
+                    android:id="@+id/five_two"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/five_one"
+                    android:layout_marginLeft="30dp"/>
+                <ImageView
+                    android:id="@+id/five_three"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/five_two"
+                    android:layout_marginLeft="30dp"/>
+                <ImageView
+                    android:id="@+id/five_four"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/five_three"
+                    android:layout_marginLeft="30dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/line_six_achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/line_five_achievements">
+
+                <ImageView
+                    android:id="@+id/six_one"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"/>
+                <ImageView
+                    android:id="@+id/six_two"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/six_one"
+                    android:layout_marginLeft="30dp"/>
+                <ImageView
+                    android:id="@+id/six_three"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/six_two"
+                    android:layout_marginLeft="30dp"/>
+                <ImageView
+                    android:id="@+id/six_four"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/unknown_badge"
+                    android:layout_toRightOf="@id/six_three"
+                    android:layout_marginLeft="30dp"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

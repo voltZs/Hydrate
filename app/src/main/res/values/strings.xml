@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Hydrate</string>
+    <string name="user_details_title">User Details</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="settings_title">Settings</string>
+    <string name="mainText">Main Activity</string>
+    <string name="userText">User Activity</string>
+    <string name="settingsText">Settings Activity</string>
+    <string name="achievementsText">Achievements Activity</string>
+    <string name="percentage">50%</string>
+    <string name="iDrank">I drank</string>
+
+    <string name="iWeight">I weigh</string>
+    <string name="mass">75 kg</string>
+    <string name="workOut">And work out</string>
+    <string name="hours">2 hours</string>
+    <string name="a_day">a day</string>
+    <string name="shoudLitres">3 litres</string>
+
+    <string name="waterLevel">waterPref</string>
+    <string name="textTarget">target:</string>
+    <string name="unit">kg</string>
+    <string name="choose_weight">Choose your weight</string>
+    <string name="choose_workout">Choose hours of activity</string>
+    <string name="number_of_columns_badges">4</string>
+    <string name="number_of_rows_badges">7</string>
+    <string name="choose_buttons">Select measures to be displayed on the Home screen</string>
+    <string name="settingButtonHeight">42dp</string>
+    <string name="settingButtonWidth">102dp</string>
+    <string name="settingButtonMarginTop">20dp</string>
+    <string name="unlocked_achs">Unlocked achievements</string>
+    <string name="past_week_text">PAST WEEK</string>
+    <string name="past_two_weeks_text">PAST TWO WEEKS</string>
+</resources>
+
